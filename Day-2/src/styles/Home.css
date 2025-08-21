@@ -1,11 +1,19 @@
+
+
 .home-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 20px;
-  background-color: #c9e9f9;
-  border: black 2px solid;
+  color: #333333;
+  background-color: #e6f3fa; /* Light blue shade for container */
+  border: 2px solid #4682b4; /* Steel blue border */
+  width: 50%; /* Reduced width to make it smaller */
+  max-width: 500px; /* Optional: sets a max width */
+  margin: 0 auto;
+  margin-top: 100px; /* Centers the container horizontally */
+  min-height: 70vh; /* Ensures it takes up full viewport height */
  }
 
 
@@ -13,9 +21,16 @@
 .student-form {
   display: flex;
   flex-direction: column;
-  
   align-items: center;
   gap: 12px; /* space between fields */
+  margin-bottom: 20px;
+}
+
+.student-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px; /* Space between fields */
   margin-bottom: 20px;
 }
 
@@ -24,5 +39,17 @@
   width: 200px;
   padding: 8px 12px;
   border-radius: 6px;
-  border: 1px solid #ccc;
+  border: 1px solid #4682b4; /* Steel blue border for inputs */
+  background-color: #ffffff; /* White background for inputs */
+  color: #333333; /* Dark text for readability */
+}
+
+.student-form button {
+  background-color: #4682b4; /* Steel blue button */
+  color: #ffffff; /* White text on button */
+  cursor: pointer;
+}
+
+.student-form button:hover {
+  background-color: #355e8c; /* Darker shade on hover */
 }
