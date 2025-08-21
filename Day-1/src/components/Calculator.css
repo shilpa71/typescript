@@ -1,0 +1,76 @@
+/* Main container styling */
+.calculator-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 30px;
+  border: 2px solid white;
+  border-radius: 12px;
+  text-align: center;
+  background: linear-gradient(135deg, #5f0b8f, #a8a5b7);
+  color: #fff;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+/* Heading */
+.calculator-container h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #f9ca24;
+}
+
+/* Version and status text */
+.calculator-container p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #ddd;
+}
+
+/* Input fields */
+.calculator-container input {
+  width: 80%;
+  padding: 10px;
+  margin: 12px 0;
+  border: 2px solid #f9ca24;
+  border-radius: 8px;
+  outline: none;
+  font-size: 16px;
+  text-align: center;
+}
+
+/* Buttons container */
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+/* Buttons */
+.button-group button {
+  padding: 12px 18px;
+  background: #f9ca24;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s ease-in-out;
+}
+
+/* Hover effect */
+.button-group button:hover {
+  background: #f6e58d;
+  transform: scale(1.1);
+}
+
+/* Result display */
+.calculator-container h2 {
+  margin-top: 20px;
+  font-size: 20px;
+  color: white;
+}
