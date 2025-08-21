@@ -1,0 +1,25 @@
+
+
+div {
+  max-width: 600px;
+  margin: 40px auto;   /* center horizontally with spacing from top */
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9; /* light gray background */
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(49, 137, 99, 0.871);
+}
+
+h2 {
+  text-align: center;
+  color: #251dbd;
+}
+
+p {
+  padding: 8px 0;
+  border-bottom: 1px solid #a36e27;
+}
+
+p:last-child {
+  border-bottom: none;
+}
