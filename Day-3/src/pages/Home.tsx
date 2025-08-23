@@ -1,4 +1,3 @@
-
 import React from "react";
 import { users, printUserInfo } from "../components/UserTypes";
 import "../styles/Home.css"
